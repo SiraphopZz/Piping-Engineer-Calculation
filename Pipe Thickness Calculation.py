@@ -1,14 +1,16 @@
-from tkinter import *
+#Pipe Thickness Calculation ASME31.3
 
-root = Tk()
-root.title("Pipe Thickness Calculation")
+def require_wall_thickness(P, D, S, E, W, Y, c):
+    """
+    P = internal design gage pressure
+    D = outside diameter
+    S = stress value
+    E = quality factor
+    W = weld joint factor
+    Y = coefficient from table 304.1.1
+    c = corrosion allowance
+    """
 
-label = Label(text="HELLO WORLD!",font=30).pack()
-labe2 = Label(text="CAT",font=30).pack()
-
-button_1 = Button(root, text="SAVE").pack()
-
-
-
-root.geometry("800x500")
-root.mainloop()
+    t = (P*D) / [2 *(S*E*W + P*Y)]
+    
+    return t + c
