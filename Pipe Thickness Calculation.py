@@ -22,7 +22,7 @@ def calculate():
 # GUI Setup
 GUI = Tk()
 GUI.title("Pipe Thickness Calculation")
-GUI.geometry("600x400")
+GUI.geometry("400x400")
 
 # Input Labels and Entry Fields
 Label(GUI, text="Internal Design Gauge Pressure (P)").grid(row=0, column=0, padx=10, pady=5)
@@ -54,7 +54,7 @@ c_input = Entry(GUI, width=20)
 c_input.grid(row=6, column=1)
 
 # Button and Result Label
-Button(GUI, text="Calculate", command=calculate).grid(row=7, column=0, columnspan=2, pady=10)
+Button(GUI, text="Calculate", command=calculate).grid(row=7, column=0, columnspan=1, pady=10)
 
 result_var = StringVar()
 Label(GUI, textvariable=result_var, fg="blue").grid(row=8, column=0, columnspan=2)
