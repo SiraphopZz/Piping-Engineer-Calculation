@@ -28,7 +28,7 @@ t_m_tolerance = round(t_m / 0.875, 3)
 
 #Result of calculation
 print("*** Minimum required thickness is: " + str(t_m) + " mm ***")
-#Result of calculation considering mill tolerance
+#Result of calculation considering mill tolerance 12.5%
 print("*** Minimum required thickness, considering mill tolerance is: " + str(t_m_tolerance) + " mm ***")
 
 # Select next standard pipe thickness ≥ minimum required
