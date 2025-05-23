@@ -28,4 +28,4 @@ I created this project because I enjoy coding and wanted to improve my understan
 ```bash
 git clone https://github.com/SiraphopZz/Piping-Engineering.git
 cd Piping-Engineering
-pip install -r requirements.txt  # or install pandas manually
+pip install pandas
