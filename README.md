@@ -16,14 +16,6 @@ I created this project because I enjoy coding and wanted to improve my understan
 | `Line List Rev.A/B.xlsx`    | Example line list inputs for validation tools |
 | `Pipe Dimension DB.csv`     | Piping dimensions reference database |
 
-## 🧠 Features
-
-- ✅ Excel & CSV parsing with pandas
-- ✅ Automated MTO grouping and unit normalization
-- ✅ ASME B31.3-based thickness calculation
-- ✅ Data validation between line list revisions
-- ✅ Clean, modular Python code (PEP8-friendly)
-
 ## 🚀 How to Use
 
 ### Requirements
