@@ -10,19 +10,11 @@ I created this project because I enjoy coding and wanted to improve my understan
 |-----------------------------|-------------|
 | `Sum_MTO.py`                | Summarizes Material Take-Off (MTO) data exported from AutoCAD |
 | `Pipe Thickness Calculation.py` | Calculates pipe wall thickness based on ASME B31.3 |
-| `GASKET_W_BOLT.py`          | Estimates required gasket and bolt sizes for flanged joints |
+| `GASKET_W_BOLT.py`          | Show bolt graphic in AutoCAD Plant3D |
 | `Line List Validator.py`    | Checks consistency across line list revisions |
 | `Pipe Dimension DB.py`      | Looks up pipe dimensions from a CSV database |
 | `Line List Rev.A/B.xlsx`    | Example line list inputs for validation tools |
 | `Pipe Dimension DB.csv`     | Piping dimensions reference database |
-
-## 🧠 Features
-
-- ✅ Excel & CSV parsing with pandas
-- ✅ Automated MTO grouping and unit normalization
-- ✅ ASME B31.3-based thickness calculation
-- ✅ Data validation between line list revisions
-- ✅ Clean, modular Python code (PEP8-friendly)
 
 ## 🚀 How to Use
 
@@ -36,4 +28,4 @@ I created this project because I enjoy coding and wanted to improve my understan
 ```bash
 git clone https://github.com/SiraphopZz/Piping-Engineering.git
 cd Piping-Engineering
-pip install -r requirements.txt  # or install pandas manually
+pip install pandas

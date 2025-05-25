@@ -11,4 +11,4 @@ trim_MTO['Unit'] = trim_MTO['Unit'].apply(lambda x: 'pcs.' if isinstance(x, str)
 
 sum_MTO = trim_MTO.groupby(['Type','Description','DN','OD','Unit'])['Q\'ty'].sum().reset_index()  #Summarize MTO
 
-print(sum_MTO)
+print(sum_MTO)  #show the result
